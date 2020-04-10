@@ -3,7 +3,7 @@
 namespace Homework9_DocumentWorker
 {
 
-    public class DocumentWorker
+    public class DocumentWorker // Main class
     {
         public DocumentWorker() { }
         public void OpenDocument()
@@ -20,7 +20,7 @@ namespace Homework9_DocumentWorker
         }
 
     }
-    public class ProDocumentWorker : DocumentWorker
+    public class ProDocumentWorker : DocumentWorker // inheritance class from MainClass
     {
         public ProDocumentWorker() { }
         public override void EditDocument()
@@ -34,9 +34,8 @@ namespace Homework9_DocumentWorker
             base.SaveDocument();
         }
 
-
     }
-    public class ExpertDocumentWorker : ProDocumentWorker
+    public class ExpertDocumentWorker : ProDocumentWorker // from ProDocWork
     {
         public override void SaveDocument()
         {
@@ -52,6 +51,41 @@ namespace Homework9_DocumentWorker
     {
         static void Main(string[] args)
         {
+            int proKey = 13579;
+            int expKey = 24680;
+            System.Console.WriteLine("Enter Pro's key password:");
+            int pro = int.Parse(Console.ReadLine());
+            if (pro != proKey)
+            {
+                DocumentWorker us1 = new DocumentWorker();
+                System.Console.WriteLine("Simple document:");
+                us1.OpenDocument();
+                us1.EditDocument();
+                us1.SaveDocument();
+            }
+            else
+            {
+                System.Console.WriteLine("Enter please Expert's key password:");
+                int exp = int.Parse(Console.ReadLine());
+
+                if (exp != expKey)
+                {
+                    ExpertDocumentWorker us1 = new ExpertDocumentWorker();
+                    System.Console.WriteLine("Data:");
+                    us1.OpenDocument();
+                    us1.EditDocument();
+                    us1.SaveDocument();
+                }
+                else
+                {
+                    ProDocumentWorker us1 = new ProDocumentWorker();
+                    System.Console.WriteLine("Data:");
+                    us1.OpenDocument();
+                    us1.EditDocument();
+                    us1.SaveDocument();
+                }
+            }
+
 
         }
     }
