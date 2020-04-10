@@ -1,0 +1,13 @@
+C:\AlifAcademy\Homework9_DocumentWorker\bin\Debug\netcoreapp3.1\Homework9_DocumentWorker.exe
+C:\AlifAcademy\Homework9_DocumentWorker\bin\Debug\netcoreapp3.1\Homework9_DocumentWorker.deps.json
+C:\AlifAcademy\Homework9_DocumentWorker\bin\Debug\netcoreapp3.1\Homework9_DocumentWorker.runtimeconfig.json
+C:\AlifAcademy\Homework9_DocumentWorker\bin\Debug\netcoreapp3.1\Homework9_DocumentWorker.runtimeconfig.dev.json
+C:\AlifAcademy\Homework9_DocumentWorker\bin\Debug\netcoreapp3.1\Homework9_DocumentWorker.dll
+C:\AlifAcademy\Homework9_DocumentWorker\bin\Debug\netcoreapp3.1\Homework9_DocumentWorker.pdb
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.csprojAssemblyReference.cache
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.csproj.CoreCompileInputs.cache
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.AssemblyInfoInputs.cache
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.AssemblyInfo.cs
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.dll
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.pdb
+C:\AlifAcademy\Homework9_DocumentWorker\obj\Debug\netcoreapp3.1\Homework9_DocumentWorker.genruntimeconfig.cache
