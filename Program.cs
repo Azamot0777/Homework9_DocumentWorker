@@ -3,25 +3,46 @@
 namespace Homework9_DocumentWorker
 {
 
-    class DocumentWorker
+    public class DocumentWorker
     {
-        static void OpenDocument()
+        public DocumentWorker() { }
+        public void OpenDocument()
         {
             System.Console.WriteLine("Document is open");
         }
-        static void EditDocument()
+        public virtual void EditDocument()
         {
-            System.Console.WriteLine("Document editing is available in pro version");
+            System.Console.WriteLine("Document editing is available in Pro version");
         }
-        static void SaveDocument()
+        public virtual void SaveDocument()
         {
-            System.Console.WriteLine("Saving the document is available in pro version");
+            System.Console.WriteLine("Saving the document is available in Pro version");
         }
 
     }
-    class ProDocumentWorker : DocumentWorker
+    public class ProDocumentWorker : DocumentWorker
     {
+        public ProDocumentWorker() { }
+        public override void EditDocument()
+        {
+            System.Console.WriteLine("The document edited");
+            base.EditDocument();
+        }
+        public override void SaveDocument()
+        {
+            System.Console.WriteLine("The document is saved in the old format.Saving other formats is available in Pro version");
+            base.SaveDocument();
+        }
 
+
+    }
+    public class ExpertDocumentWorker : ProDocumentWorker
+    {
+        public override void SaveDocument()
+        {
+            System.Console.WriteLine("The document is saved in a new format");
+            base.SaveDocument();
+        }
     }
 
 
